@@ -80,11 +80,11 @@ section {
   position: absolute;
   top: 40%;
   left: 55%;
-  transform: translate(-55%,-55%);
-  -webkit-transform: translate(-55%,-55%);
-  -moz-transform: translate(-55%,-55%);
-  -ms-transform: translate(-55%,-55%);
-  -o-transform: translate(-55%,-55%);
+  transform: translate(-55%, -55%);
+  -webkit-transform: translate(-55%, -55%);
+  -moz-transform: translate(-55%, -55%);
+  -ms-transform: translate(-55%, -55%);
+  -o-transform: translate(-55%, -55%);
 }
 
 /* HERO SECTION */
@@ -132,4 +132,29 @@ section {
 .exp-number {
   margin-top: 20px;
   margin-bottom: -3px;
+}
+
+/* SKILLS SECTION */
+.skill {
+  background-color: var(--gray);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.skill:hover {
+  transform: scale(1.2) rotate(-5deg);
+  -webkit-transform: scale(1.2) rotate(-5deg);
+  -moz-transform: scale(1.2) rotate(-5deg);
+  -ms-transform: scale(1.2) rotate(-5deg);
+  -o-transform: scale(1.2) rotate(-5deg);
+  box-shadow: 0px 10px 25px 10px rgba(9, 132, 206, 40);
 }
