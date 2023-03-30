@@ -196,3 +196,27 @@ section {
 #gallery-modal .modal-img {
   width: 100%;
 }
+/* CONTACT SECTION  */
+
+.contact-bg {
+  background-color: var(--secondColor);
+  height: 65vh;
+  padding: 50px;
+}
+
+form input,
+textarea {
+  color: var(--textdColor)!important;
+  background-color: var(--primaryColor) !important;
+  border: 1px solid var(--gray)!important;
+}
+
+.form-control::placeholder{
+  color: rgba(170, 169, 169, 0.61);
+
+}
+@media screen and (max-whidth:974px) {
+  .contact-bg {
+ height: 40vh;
+}
+}
