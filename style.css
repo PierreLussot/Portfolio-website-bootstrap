@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --primaryColor: #101820;
+  --secondColor: #009bf9;
+  --textdColor: #f2faff;
+  --gray: rgba(42, 53, 62, 0.4);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  background: var(--primaryColor);
+  color: var(--textdColor);
+}
+
+#mainNavbar {
+  background-color: var(--primaryColor) !important ;
+  border-bottom: 1px solid var(--gray);
+}
+
+#mainNavbar .nav-item .nav-link {
+  position: relative;
+  color: var(--textdColor);
+}
+
+#mainNavbar .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondColor);
+  bottom: -3px;
+  left: 0;
+  transition: ease 0.4s;
+  -webkit-transition: ease 0.4s;
+  -moz-transition: ease 0.4s;
+  -ms-transition: ease 0.4s;
+  -o-transition: ease 0.4s;
+}
+
+#mainNavbar .nav-item:not(:last-child) .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+outline: none;
+box-shadow: none;
+}
+
+.img_fluid {
+  width: 50px;
+}
