@@ -15,6 +15,7 @@
   border: none;
   list-style: none;
 }
+/* NAVBAR */
 
 body {
   overflow-x: hidden;
@@ -55,12 +56,44 @@ body {
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
-.navbar-toggler-icon:focus
-{
-outline: none;
-box-shadow: none;
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .img_fluid {
-  width: 50px;
+  width: 60px;
+}
+section {
+  padding: 5rem 0;
+}
+
+/* HERO SECTION */
+
+#hero {
+  background-image: url(./img/bulle8.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+
+#hero .social a {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+#hero .social a:hover {
+  color: var(--textdColor);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+#hero h1 .typer {
+  color: var(--secondColor);
 }
