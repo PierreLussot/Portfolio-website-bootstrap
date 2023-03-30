@@ -48,13 +48,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Accueil</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">A propos de moi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#">Mes compétences</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Servives</a>
@@ -308,6 +310,8 @@
     </section>
 
     <!-- Skills End -->
+
+    <!-- SERVICE Start -->
     <section id="servive">
       <div class="container">
         <div class="section-title">
@@ -318,7 +322,11 @@
         </div>
         <div class="row">
           <div class="col-lg-4 service-box text-center mt-3">
-            <img src="./img/web-design.png" alt="web design " class="img-fluid mb-3" />
+            <img
+              src="./img/web-design.png"
+              alt="web design "
+              class="img-fluid mb-3"
+            />
             <h3 class="fw-bold mb-2">Web design</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -328,7 +336,11 @@
             </p>
           </div>
           <div class="col-lg-4 service-box text-center mt-3">
-            <img src="./img/web-design.png" alt="web design " class="img-fluid mb-3" />
+            <img
+              src="./img/web-design.png"
+              alt="web design "
+              class="img-fluid mb-3"
+            />
             <h3 class="fw-bold mb-2">Graphic design</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -338,7 +350,11 @@
             </p>
           </div>
           <div class="col-lg-4 service-box text-center mt-3">
-            <img src="./img/web-design.png" alt="web design " class="img-fluid mb-3" />
+            <img
+              src="./img/web-design.png"
+              alt="web design "
+              class="img-fluid mb-3"
+            />
             <h3 class="fw-bold mb-2">SEO service</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -350,9 +366,81 @@
         </div>
       </div>
     </section>
-    <!-- SERVICE Start -->
 
     <!-- SERVICE End -->
+
+    <!-- Portfolio Start -->
+    <section id="portefolio">
+      <div class="container">
+        <div class="section-title">
+          <h3 class="text-center fw-bold main-title">Mon portefolio</h3>
+          <p class="text-center fw-bold ms-1 ps-1 sub-title">
+            Qu'est-ce que j'ai fait ?
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-smd-3 gy-3">
+          <div class="col">
+            <img
+              src="./img/codingphp.jpg"
+              alt=""
+              class="gallery-item image-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./img/codingphp.jpg"
+              alt=""
+              class="gallery-item image-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./img/codingphp.jpg"
+              alt=""
+              class="gallery-item image-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./img/codingphp.jpg"
+              alt=""
+              class="gallery-item image-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal  -->
+    <div
+      class="modal fade"
+      id="gallery-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog moda-dialog-centered modal-ld">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./img/codingphp.jpg"
+              alt=""
+              class="modal-img image-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio End -->
 
     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
     <script
