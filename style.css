@@ -135,6 +135,7 @@ section {
 }
 
 /* SKILLS SECTION */
+
 .skill {
   background-color: var(--gray);
   border-radius: 7px;
@@ -157,4 +158,24 @@ section {
   -ms-transform: scale(1.2) rotate(-5deg);
   -o-transform: scale(1.2) rotate(-5deg);
   box-shadow: 0px 10px 25px 10px rgba(9, 132, 206, 40);
+}
+
+/* SERVICE SECTION */
+
+.service-box {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.service-box:hover {
+  background-image: linear-gradient(-45deg, #2763b8 0%, #2232dd 100%);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding: 20px 0;
 }

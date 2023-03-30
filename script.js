@@ -1,6 +1,6 @@
 const typed = new Typed(".typer", {
   strings: [
-    "Html <i class='bi bi-filetype-html'></i>",
+    "Html  <img src='./img/web-design.png' />",
     "Css <i class='bi bi-filetype-css'></i>",
     "Php <i class='bi bi-filetype-php'></i>",
     "Javascript <i class='bi bi-filetype-js'></i>",
@@ -18,7 +18,7 @@ valueNumbers.forEach((valueNumber) => {
   let endValue = parseInt(valueNumber.getAttribute("data-val"));
 
   let duration = Math.floor(interval / endValue);
-  
+
   let counter = setInterval(() => {
     startValue += 1;
     valueNumber.textContent = startValue;
