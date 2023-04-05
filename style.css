@@ -193,9 +193,11 @@ section {
   -o-border-radius: 7px;
   object-fit: cover;
 }
+
 #gallery-modal .modal-img {
   width: 100%;
 }
+
 /* CONTACT SECTION  */
 
 .contact-bg {
@@ -206,17 +208,16 @@ section {
 
 form input,
 textarea {
-  color: var(--textdColor)!important;
+  color: var(--textdColor) !important;
   background-color: var(--primaryColor) !important;
-  border: 1px solid var(--gray)!important;
+  border: 1px solid var(--gray) !important;
 }
 
-.form-control::placeholder{
+.form-control::placeholder {
   color: rgba(170, 169, 169, 0.61);
-
 }
-@media screen and (max-whidth:974px) {
+@media screen and (max-whidth: 974px) {
   .contact-bg {
- height: 40vh;
-}
+    height: 40vh;
+  }
 }
